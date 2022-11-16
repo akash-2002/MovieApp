@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App';
 import { createStore } from 'redux';
-import movies from './reducer';
+import rootreducer from './reducer';
 
-const store = createStore(movies);
+const store = createStore(rootreducer);
 console.log(store);
 // console.log(store.getState());
 
